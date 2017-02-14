@@ -12,8 +12,15 @@ import Footer from 'components/Footer';
 
 export class Browse extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
+
+    const containerStyle = {
+      background: "url(http://h4z.it/Image/7210d0_-1002897_640.jpg)",
+      minHeight: "50px",
+      width: "auto"
+    };
+
     return (
-      <div>
+      <div style={containerStyle}>
         <Helmet
           title="Browse"
           meta={[
@@ -21,6 +28,8 @@ export class Browse extends React.PureComponent { // eslint-disable-line react/p
           ]}
         />
         <Header />
+
+        <main>lbdhjasgfldhasb</main>
 
         <Footer />
       </div>
