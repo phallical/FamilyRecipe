@@ -15,8 +15,10 @@ export class Browse extends React.PureComponent { // eslint-disable-line react/p
 
     const containerStyle = {
       background: "url(http://h4z.it/Image/7210d0_-1002897_640.jpg)",
-      minHeight: "50px",
-      width: "auto"
+      minHeight: "100vh",
+      width: "auto",
+      backgroundRepeat: "repeat"
+
     };
 
     return (
@@ -29,7 +31,7 @@ export class Browse extends React.PureComponent { // eslint-disable-line react/p
         />
         <Header />
 
-        <main>lbdhjasgfldhasb</main>
+        <main></main>
 
         <Footer />
       </div>

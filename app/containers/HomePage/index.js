@@ -17,6 +17,26 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+/*  constructor(props){
+    super(props);
+    this.state = {
+      text:"this is some text",
+      myName:""
+    }
+  };
+
+  componentWillMount(){
+    this.getData("luuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuke");
+  };
+
+  getData(myName){
+    if (this.state.name == ""){
+      this.setState({name:"luke"})
+    }else{
+      this.setState({name:"i love you"})
+    }
+  };
+*/
   render() {
 
     const containerStyle = {
@@ -46,6 +66,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         <Header />
 
         <main style={mainStyle}>
+  
           <div style={divStyle}>
             (our) Family Home Recipes☺
           </div>

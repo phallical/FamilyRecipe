@@ -8,3 +8,9 @@ $npm run generate component
 
 $npm run generate container
 	creates new page
+
+$git add .
+
+$git commit -m "added css"
+
+$git push origin master

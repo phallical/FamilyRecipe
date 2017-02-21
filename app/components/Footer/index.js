@@ -5,6 +5,7 @@
 */
 
 import React from 'react';
+import Responsive from 'react-responsive';
 import { Link } from 'react-router';
 // import styled from 'styled-components';
 
@@ -29,9 +30,12 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
         background: "rgb(0,0,0)"
       };
     return (
-      <footer style={footerStyle}>
-        <Link style={linkStyle} to="/ReportBug">Report a bug.</Link>
-      </footer>
+
+      <Responsive minDeviceWidth={768} >
+        <footer style={footerStyle}>
+          <Link style={linkStyle} to="/ReportBug">Report a bug</Link>
+        </footer>
+      </Responsive>
     );
   }
 }

@@ -12,8 +12,17 @@ import Footer from 'components/Footer';
 
 export class Search extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
+
+    const containerStyle = {
+      background: "url(http://h4z.it/Image/4a7cf5_1752846_1920.jpg)",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      height: "100vh",
+      overflow: "hidden"
+    };
     return (
-      <div>
+      <div style={containerStyle}>
         <Helmet
           title="Search"
           meta={[
